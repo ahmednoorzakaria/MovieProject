@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <Side />
       <Body data={data} />
     </div>

@@ -3,7 +3,7 @@ import "./index.css";
 
 function Side() {
   return (
-    <aside className="side-bar">
+    <aside className="sidenav">
       <div className="side-content">
         <h1 className="display-4">Movieflix</h1>
         <div className="btn-group-vertical mt-4">
