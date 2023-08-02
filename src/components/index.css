@@ -1,0 +1,81 @@
+body{
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+h1{
+    background-color: antiquewhite;
+
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 120px;
+    margin-right: 10px;
+    
+}
+
+
+.my-button{
+    background-color: blue;
+    border-radius: 4px;
+    border-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: table-column;
+    float: left;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.select{
+    background-color: aqua;
+    border: solid black;
+    border-radius: 5px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    
+    flex-direction: column;
+    margin-bottom: 2px;
+    align-items: center;
+}
+.login{
+    margin-top: 100px;
+    background-color: aqua;
+}
+.centre{
+    justify-content: center;
+    float: right;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+
+}
+
+.big-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin-right: 500px;
+    float: right;
+    margin-top: 80px;
+    background-color: violet;
+}
+
+.layout{
+    display: inline-block;
+    background-color: black;
+    width: 200px;
+    
+    padding: 20px;
+}
+
+.button-container{
+    justify-content: center;
+    display: inline-flex;
+    margin-bottom: 400px;
+}
