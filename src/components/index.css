@@ -63,19 +63,51 @@ h1{
     margin-right: 500px;
     float: right;
     margin-top: 80px;
-    background-color: violet;
+    background-color: rgb(18, 2, 18);
 }
 
-.layout{
+/* .layout{
     display: inline-block;
     background-color: black;
     width: 200px;
     
     padding: 20px;
-}
+} */
 
 .button-container{
     justify-content: center;
     display: inline-flex;
-    margin-bottom: 400px;
+    margin-bottom: 10px;
 }
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding: 20px;
+    /* color: white; */
+  }
+
+  /* .movie-container{
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .sidenav{
+    background: #002240;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    top: 0;
+    left: .0;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: .20px;
+    margin-right: 100p;
+  }
+  .main{
+    margin-left: 20%;
+    padding: 4px 10px;
+  }
