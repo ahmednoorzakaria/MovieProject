@@ -2,7 +2,7 @@
 import React from "react";
 import "./index.css";
 import SingleMovie from "./SingleMovie";
-import SearchContainer from "./SearchContainer"; // Import the SearchContainer component
+import SearchContainer from "./SearchContainer"; 
 
 function Body({ data }) {
   const Types = [
@@ -14,7 +14,7 @@ function Body({ data }) {
   
   return (
     <main className="container main">
-      <SearchContainer /> {/* Use the SearchContainer component here */}
+      <SearchContainer /> {}
       <div className="button-container">
         {Types.map((type) => (
           <button className="my-button" key={type}>
