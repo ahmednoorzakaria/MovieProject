@@ -6,7 +6,7 @@ function SearchContainer() {
       <input
         type="text"
         placeholder="Search movies and series..."
-        // Add your search functionality here
+        // search functionality
       />
     </div>
   );
