@@ -1,6 +1,6 @@
 function SingleMovie({movie}){
     return(
-        <div className="col-md-3 pb-10">
+        <div className="col-md-3 pb-15">
         <div className="card" style={{ width: "18rem" }}>
             <img
               className="card-img-top"

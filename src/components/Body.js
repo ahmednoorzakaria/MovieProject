@@ -6,8 +6,9 @@ import SearchContainer from "./SearchContainer";
 
 function Body({ data }) {
   const Types = [
-    "Movie",
-    "Series",
+    // "Movie",
+    // "Series",
+    // "Upcoming",
   ];
   
   const displayedMovies = data.map(movie => <SingleMovie key={movie.id} movie={movie}/>)
