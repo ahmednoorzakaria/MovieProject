@@ -10,12 +10,15 @@ h1{
 }
 .logo{
     float: left;
-    width: 200px;
+    width: 100px;
     height: 120px;
     margin-right: 10px;
     
 }
 
+.movie-logo{
+  width: 450px;
+}
 
 .my-button{
     background-color: blue;
@@ -83,7 +86,7 @@ h1{
     display: flex;
 
 }
-.sidebar {
+ .sidebar {
     width: 250px;
     height: 100%;
     position: fixed;
@@ -91,8 +94,8 @@ h1{
     left: 0;
     background-color: #333;
     padding: 20px;
-    /* color: white; */
-  }
+    color: white;
+  } 
 
   /* .movie-container{
     display: flex;
@@ -111,6 +114,8 @@ h1{
     padding-top: .20px;
     margin-right: 100p;
     background-color: black;
+    display: flex;
+
   }
   .main{
     margin-left: 20%;
@@ -135,4 +140,16 @@ h1{
     border: 1px ;
     border-radius: 50px;
   }
-  
+  .button{
+    background-color: blue;
+    border-radius: 40px;
+    border-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: table-column;
+    float: left;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    background-color: #a9a9a9;
+  }

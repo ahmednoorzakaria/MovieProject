@@ -7,8 +7,10 @@ function Side() {
     <aside className="sidenav">
       <div className="side-content">
         <h1 className="display-4">Movieflix</h1>
+        <img className="movie-logo"src="https://i.pinimg.com/564x/43/45/1a/43451a12de29a5a6f08ff562faa60716.jpg" alt="Movie logo"/>
+
         <div className="btn-group-vertical mt-4">
-          <Dropdown>
+          {/* <Dropdown>
             <Dropdown.Toggle variant="outline-info" id="genres-dropdown">
               Genres
             </Dropdown.Toggle>
@@ -31,13 +33,12 @@ function Side() {
               <Dropdown.Item>Science Fiction</Dropdown.Item>
               <Dropdown.Item>TV Movie</Dropdown.Item>
               <Dropdown.Item>Thriller</Dropdown.Item>
-              <Dropdown.Item>Western</Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown>
-          <button className="btn btn-outline-info mb-2">Trending</button>
-          <button className="btn btn-outline-info mb-2">Upcoming</button>
-          <button className="btn btn-outline-info mb-2">Favorites</button>
-          <button className="btn btn-outline-primary">Login</button>
+          </Dropdown> */}
+          
+          <button className="button">Movie</button>
+          <button className="button">Series</button>
+          <button className="button">Trending</button>
         </div>
       </div>
     </aside>
