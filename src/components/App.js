@@ -45,8 +45,8 @@ function App() {
           <Navbar />
 
           <Routes>
-            <Route path="/" element={<Home Data={movieData} />} />
             <Route path="/movies" element={<Movie Data={movieData} />} />
+            <Route path="/" element={<Home Data={movieData} />} />
             <Route path="/series" element={<Series Data={seriesData} />} />
           </Routes>
         </div>
